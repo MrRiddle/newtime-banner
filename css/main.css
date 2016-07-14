@@ -1,0 +1,40 @@
+body {
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+
+a, img {
+    -webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单 */
+}
+html, body {
+    -webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
+    user-select: none;
+}
+
+p {
+    text-indent: 36px;
+    font-size: 18px;
+}
+
+.container{ 
+    margin:0 auto; 
+}
+.page {
+    width: 300px;
+}
+#p1 {
+    background-image: url(../img/p1_bg.png);
+    background-repeat: no-repeat;
+}
+
+#title {
+    animation: p1_ani 5s;
+}
+@keyframes p1_ani
+{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
