@@ -15,10 +15,10 @@ p {
     font-size: 18px;
 }
 
-.container{ 
+.viewport{ 
     margin:0 auto; 
 }
-.page {
+.pageview {
     width: 300px;
 }
 #p1 {
